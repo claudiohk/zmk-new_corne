@@ -75,10 +75,10 @@
         layer_NUM {
             display-name = "NUMBER";
             bindings = <
-&mt LCTRL GRAVE  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5                                  &mmv MOVE_UP                     &kp N6     &kp N7   &kp N8   &kp N9  &kp N0     &kp BSPC
-&kp F11          &kp F1  &kp F2  &kp F3  &kp F4  &kp F5                  &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp ASTRK  &kp N4   &kp N5   &kp N6  &kp MINUS  &kp EQUAL
-&mt LSHFT F12    &kp F6  &kp F7  &kp F8  &kp F9  &kp F10   &kp C_MUTE                    &mmv MOVE_DOWN                   &kp SLASH  &kp N1   &kp N2   &kp N3  &kp PLUS   &kp BSLH
-                                 &trans  &trans  &kp LALT                                                                 &kp ENTER  &kp DOT  &kp DEL
+&mt LCTRL GRAVE  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5                                 &mmv MOVE_UP                     &kp N6     &kp N7   &kp N8   &kp N9  &kp N0     &kp BSPC
+&kp F11          &kp F1  &kp F2  &kp F3  &kp F4  &kp F5                 &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp ASTRK  &kp N4   &kp N5   &kp N6  &kp MINUS  &kp EQUAL
+&mt LSHFT F12    &kp F6  &kp F7  &kp F8  &kp F9  &kp F10   &kp CLEAR                    &mmv MOVE_DOWN                   &kp SLASH  &kp N1   &kp N2   &kp N3  &kp PLUS   &kp BSLH
+                                 &trans  &trans  &kp LALT                                                                &kp ENTER  &kp DOT  &kp DEL
             >;
 
             sensor-bindings = <&inc_dec_kp C_AC_ZOOM_IN C_AC_ZOOM_OUT>;
