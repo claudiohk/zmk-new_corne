@@ -15,19 +15,19 @@ layers:
   - P
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:keyboard-tab$$', h: Fn}
-  - {t: A, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: S, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: D, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: F, h: '$$mdi:apple-keyboard-shift$$'}
+  - A
+  - S
+  - D
+  - F
   - G
   - $$mdi:arrow-left-bold$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:arrow-right-bold$$
   - H
-  - {t: J, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: K, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: L, h: RIGHT GUI}
-  - {t: ;, h: '$$mdi:apple-keyboard-control$$', s: ':'}
+  - J
+  - K
+  - L
+  - {t: ;, s: ':'}
   - {t: '''', h: '$$mdi:apple-keyboard-caps$$', s: '"'}
   - $$mdi:apple-keyboard-shift$$
   - Z
@@ -294,3 +294,8 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
+combos:
+- p: [30, 31]
+  k: COPY
+- p: [31, 32]
+  k: PASTE
