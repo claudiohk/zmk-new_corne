@@ -19,7 +19,7 @@
 
  */
 
-#define ZMK_MOUSE_DEFAULT_MOVE_VAL 1200  // 600
+#define ZMK_MOUSE_DEFAULT_MOVE_VAL 1200  // 900
 #define ZMK_MOUSE_DEFAULT_SCRL_VAL 20    // 10
 
 / {
@@ -35,7 +35,7 @@
             compatible = "zmk,behavior-hold-tap";
             label = "ESC_LCTRL";
             bindings = <&kp>, <&kp>;
-
+            flavor = "balanced";
             #binding-cells = <2>;
             tapping-term-ms = <200>;
             hold-trigger-key-positions = <0>;
