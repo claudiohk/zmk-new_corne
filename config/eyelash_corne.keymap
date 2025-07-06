@@ -35,6 +35,7 @@
             compatible = "zmk,behavior-hold-tap";
             label = "ESC_LCTRL";
             bindings = <&kp>, <&kp>;
+
             flavor = "balanced";
             #binding-cells = <2>;
             tapping-term-ms = <200>;
@@ -56,16 +57,30 @@
         tap-ms = <30>;
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        Copy {
+            bindings = <&kp K_COPY>;
+            key-positions = <30 31>;
+        };
+
+        Paste {
+            bindings = <&kp K_PASTE>;
+            key-positions = <31 32>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
         layer_0 {
             display-name = "QWERTY";
             bindings = <
-&mt LEFT_CONTROL ESC  &kp Q               &kp W           &kp E           &kp R             &kp T                                  &kp UP                &kp Y        &kp U              &kp I            &kp O            &kp P                   &kp BSPC
-&lt 3 TAB             &mt LEFT_CONTROL A  &mt LEFT_GUI S  &mt LEFT_ALT D  &mt LEFT_SHIFT F  &kp G                        &kp LEFT  &kp ENTER  &kp RIGHT  &kp H        &mt RIGHT_SHIFT J  &mt RIGHT_ALT K  &mt RIGHT_GUI L  &mt RIGHT_CONTROL SEMI  &mt CAPS SQT
-&kp LSHIFT            &kp Z               &kp X           &kp C           &kp V             &kp B        &lt 5 C_MUTE              &kp DOWN              &kp N        &kp M              &kp COMMA        &kp DOT          &kp FSLH                &mt RSHFT ENTER
-                                                          &kp LGUI        &mo 1             &lt 4 SPACE                                                  &lt 3 ENTER  &mo 2              &kp RALT
+&mt LEFT_CONTROL ESC  &kp Q  &kp W  &kp E     &kp R  &kp T                                  &kp UP                &kp Y        &kp U  &kp I      &kp O    &kp P          &kp BSPC
+&lt 3 TAB             &kp A  &kp S  &kp D     &kp F  &kp G                        &kp LEFT  &kp ENTER  &kp RIGHT  &kp H        &kp J  &kp K      &kp L    &kp SEMICOLON  &mt CAPS SQT
+&kp LSHIFT            &kp Z  &kp X  &kp C     &kp V  &kp B        &lt 5 C_MUTE              &kp DOWN              &kp N        &kp M  &kp COMMA  &kp DOT  &kp FSLH       &mt RSHFT ENTER
+                                    &kp LGUI  &mo 1  &lt 4 SPACE                                                  &lt 3 ENTER  &mo 2  &kp RALT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
