@@ -81,19 +81,19 @@
       compatible = "zmk,combos";
       cut {
         timeout-ms = <18>;
-        bindings = <&kp LC(X)>;
+        bindings = <&kp K_CUT>;
         key-positions = <30 32>;
         require-prior-idle-ms = <150>;
       };
       copy {
         timeout-ms = <18>;
-        bindings = <&kp LC(INS)>;
+        bindings = <&kp K_COPY>;
         key-positions = <30 31>;
         require-prior-idle-ms = <150>;
       };
       paste {
         timeout-ms = <18>;
-        bindings = <&kp LS(INS)>;
+        bindings = <&kp K_PASTE>;
         key-positions = <31 32>;
         require-prior-idle-ms = <150>;
       };
