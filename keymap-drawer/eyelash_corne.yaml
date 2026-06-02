@@ -394,8 +394,8 @@ layers:
   - {type: held}
 combos:
 - p: [30, 32]
-  k: Ctl+X
+  k: CUT
 - p: [30, 31]
-  k: Ctl+INS
+  k: COPY
 - p: [31, 32]
-  k: Sft+INS
+  k: PASTE
