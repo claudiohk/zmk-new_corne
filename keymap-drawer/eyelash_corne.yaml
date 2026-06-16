@@ -349,7 +349,7 @@ layers:
   - F7
   - F8
   - F9
-  - PSCR N
+  - $$mdi:printer-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -362,7 +362,7 @@ layers:
   - F4
   - F5
   - F6
-  - SCCK
+  - SLCK
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
