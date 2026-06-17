@@ -207,8 +207,8 @@ layers:
   - BT CLR ALL
   - OUT USB
   - OUT BLE
-  - EP OFF
-  - EP ON
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - LGUI
