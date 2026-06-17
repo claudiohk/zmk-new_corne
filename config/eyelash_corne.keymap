@@ -8,7 +8,7 @@
 #include <dt-bindings/zmk/rgb.h>
 
 
-#define ZMK_POINTING_DEFAULT_MOVE_VAL 1600  // 600
+#define ZMK_POINTING_DEFAULT_MOVE_VAL 1400  // 600
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 25   // 10
 
 // Physical Left Hand typing grid
