@@ -19,7 +19,6 @@
 #define C_HM_R(k1, k2, k3, k4) &c_hm_r RSHFT k1 &c_hm_r RCTRL k2 &c_hm_r RALT k3 &c_hm_r RGUI k4
 
 #include <input/processors.dtsi>
-#include <zephyr/dt-bindings/input/input-event-codes.h>
 #include <behaviors/runtime-sensor-rotate.dtsi>
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
