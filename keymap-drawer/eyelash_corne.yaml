@@ -395,7 +395,10 @@ layers:
 combos:
 - p: [30, 32]
   k: CUT
+  l: [QWERTY]
 - p: [30, 31]
   k: COPY
+  l: [QWERTY]
 - p: [31, 32]
   k: PASTE
+  l: [QWERTY]
